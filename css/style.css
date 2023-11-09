@@ -88,7 +88,7 @@ body{
 .text-center{ text-align: center;}
 
 /* layout starts */
-.wrap-1{ background: #15263e; color: #fff; position: fixed; width: 100%; padding: 24px 0;}
+.wrap-1{ background: #15263e; color: #fff; position: fixed; width: 100%; padding: 24px 0; z-index: 1;}
 .wrap-1 ul{display: flex;}
 .wrap-1 li{ margin: 0 10px; position: relative; }
 .wrap-1 a{ color: inherit; line-height: 60px; display: block; padding: 0 25px; }
@@ -166,6 +166,23 @@ h2+p{ margin: 2rem 0 4rem;}
 .profile.even{ border-left: 14px solid #dcdcdc; border-right: none; padding-left: 20px; }
 
 
+.wrap-9{ padding: 90px 0; }
+.wrap-9 figure{ margin-top: 4rem; }
+.wrap-9 figcaption{ font-size: 15px; color: #929292; margin: 35px 0 25px; }
+.wrap-9 h3{margin: 0 0 15px; }
+.wrap-9 p{ color: #494949; font-size: 15px; line-height: 2; }
+
+
+.wrap-10{ background: url(../img/bg3.webp) no-repeat center center/cover; padding:72px 0 66px}
+.contact{ background: #15263e; color: #fff; padding: 70px 1rem;}
+.contact input{ width: 100%; height: 55px; padding: 0 25px; margin: 11px 0;}
+.contact textarea{ width: 100%; height: 110px; padding: 25px; margin: 11px 0;}
+.contact button{ width: 214px; height: 67px; border: none; background: var(--grad); color: #fff; display: block; margin: auto; margin-top: 23px;}
+
+
+.wrap-11{ color: #494949; font-size: 15px; text-align: center; padding: 4rem 0;}
+
+
 
 
 @media screen and (max-width:1220px){
@@ -206,4 +223,6 @@ h2+p{ margin: 2rem 0 4rem;}
     .wrap-6 blockquote{ margin: 4rem 0 0 0;}
     .wrap-6 h3{font-size: 24px;}
     .wrap-7 li{ margin:5px;}
+    .profile,.profile.even{ border:none; padding: 0; }
+    .wrap-7 .col-2{ background: #fff; position: sticky; top: 40px; }
 }
